@@ -1,0 +1,25 @@
+header {
+  background-color: #fff;
+}
+.headerArea {
+  width: 75%;
+  margin: auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuBar {
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      a {
+        color: #000;
+        font-size: 18px;
+        padding: 10px 15px;
+        text-decoration: none;
+      }
+    }
+  }
+}
